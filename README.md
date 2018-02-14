@@ -19,18 +19,24 @@ Basically, it changes your prompt.
 [/mnt/d/Program Files/cmder_mini]
 ```
 The above shown part of the prompt shows the current working directory
+
+
 ```
 [70]
 ```
 The amount of commands you executed in your current session
+
 ```
 [ ✔ ]
 ```
 Shows wether the latest command you executed was a good or bad command
+
+
 ```
 - root@Prometeus: $
 ```
 Shows the user@host
+
 
 When you are inside a directory that is also a git repository, the prompt wil show some information about said directory:
 ![Git info in prompt](docs/images/gitprompt_clean.png)
@@ -54,31 +60,39 @@ gi
 ```
 Inits a git repository (short for `git init`)
 
+
 ```
 gs
 ```
 Shows the status of a git repository (short for `git status`)
+
 
 ```
 gp
 ```
 Will push current commits to origin master (short for `git push`)
 
+
 ```
 gc "Your commit message goes here"
 ```
 Will commit currently added files and add a message. Accepts a parameter which will be your commit message. (short for `git commit -m "commit message"`)
+
 
 ```
 gca "Your commit message goes here"
 ```
 Will add all currently untracked/updated files and then commit all files currently staged for commit. Accepts a parameter which will be your commit message. (short for `git add --all; git commit -m "commit message"`)
 
+
+
 #### Make new directory and go inside newly made directory
 ```
 mkcdir "new_directory_name"
 ```
 Makes a new directory and moves your current working directory to this directory
+
+
 
 #### List all
 ```
