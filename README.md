@@ -51,9 +51,9 @@ If you have made new files that are currently untracked, the git info prompt par
 
 If you have tracked files, which were updated, that haven't been commited yet the git info prompt part will turn red:
 ![Git info in prompt - Some files are not committed](docs/images/gitprompt_dirty.png)
+</br>
+</br>
 
-</br>
-</br>
 ### The .bash_aliases
 The .bash_aliases file adds some new commands for your terminal, mainly shorthand versions of existing commands.
 
