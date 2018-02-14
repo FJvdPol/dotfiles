@@ -19,24 +19,29 @@ Basically, it changes your prompt.
 [/mnt/d/Program Files/cmder_mini]
 ```
 The above shown part of the prompt shows the current working directory
-
+</br>
+</br>
 
 ```
 [70]
 ```
 The amount of commands you executed in your current session
+</br>
+</br>
 
 ```
 [ ✔ ]
 ```
 Shows wether the latest command you executed was a good or bad command
-
+</br>
+</br>
 
 ```
 - root@Prometeus: $
 ```
 Shows the user@host
-
+</br>
+</br>
 
 When you are inside a directory that is also a git repository, the prompt wil show some information about said directory:
 ![Git info in prompt](docs/images/gitprompt_clean.png)
