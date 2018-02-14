@@ -9,7 +9,7 @@ alias la="ls -a"
 alias nav_tech="cd /mnt/d/CMD\ Amsterdam/Jaar\ 2/project_tech"
 alias nav_jaar2="cd /mnt/d/CMD\ Amsterdam/Jaar\ 2"
 
-# Git aliases
+# Git aliases (shorthands for git commands)
 alias gi="git init"
 alias gp="git push -u origin master"
 alias gs="git status"
