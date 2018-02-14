@@ -1,13 +1,4 @@
 ######### # Aliases #########
-# Random alias
-alias folkert="echo 'Hello folkert'"
-
-# Show all items in current directory
-alias la="ls -a"
-
-# Navigation aliases
-alias nav_tech="cd /mnt/d/CMD\ Amsterdam/Jaar\ 2/project_tech"
-alias nav_jaar2="cd /mnt/d/CMD\ Amsterdam/Jaar\ 2"
 
 # Git aliases (shorthands for git commands)
 alias gi="git init"
@@ -26,3 +17,6 @@ function mkcdir(){
     mkdir -p -- "$1" &&
       cd -P -- "$1"
 }
+
+# Show all items in current directory
+alias la="ls -a"
