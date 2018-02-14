@@ -11,4 +11,4 @@ If you decide to use my aliases **and** my profile, put both files in the same f
 
 ## What does it do?
 Basically, it changes your prompt.
-![New Prompt](docs/prompt.png)
+![New Prompt](docs/images/prompt.png)
