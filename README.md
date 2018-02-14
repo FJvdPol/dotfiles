@@ -52,8 +52,8 @@ If you have made new files that are currently untracked, the git info prompt par
 If you have tracked files, which were updated, that haven't been commited yet the git info prompt part will turn red:
 ![Git info in prompt - Some files are not committed](docs/images/gitprompt_dirty.png)
 
-
-
+</br>
+</br>
 ### The .bash_aliases
 The .bash_aliases file adds some new commands for your terminal, mainly shorthand versions of existing commands.
 
@@ -64,31 +64,36 @@ I made some shorthand versions for certain git commands, the shorthands are `gi`
 gi
 ```
 Inits a git repository (short for `git init`)
-
+</br>
+</br>
 
 ```
 gs
 ```
 Shows the status of a git repository (short for `git status`)
-
+</br>
+</br>
 
 ```
 gp
 ```
 Will push current commits to origin master (short for `git push`)
-
+</br>
+</br>
 
 ```
 gc "Your commit message goes here"
 ```
 Will commit currently added files and add a message. Accepts a parameter which will be your commit message. (short for `git commit -m "commit message"`)
-
+</br>
+</br>
 
 ```
 gca "Your commit message goes here"
 ```
 Will add all currently untracked/updated files and then commit all files currently staged for commit. Accepts a parameter which will be your commit message. (short for `git add --all; git commit -m "commit message"`)
-
+</br>
+</br>
 
 
 #### Make new directory and go inside newly made directory
@@ -96,7 +101,8 @@ Will add all currently untracked/updated files and then commit all files current
 mkcdir "new_directory_name"
 ```
 Makes a new directory and moves your current working directory to this directory
-
+</br>
+</br>
 
 
 #### List all
